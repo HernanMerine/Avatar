@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Avatar</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="PersonajesAvatar/LogoB.png" alt="Logo Avatar">
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        <nav id="menu_bar" class="">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="personajes.html">Personajes</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="resenas.html">Reseñas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <article class="principal">
+            <div>
+                <h1>Avatar</h1>
+                <img src="PersonajesAvatar/LogoBackk.png" alt="Logo">
+                <h2>Avatar La Leyenda de Aang.</h2>
+            </div>
+            </article>
+        <article class="secundario">
+            <div>
+                <a href="#">
+                    <img src="Escenas/Mapa.jpg" alt="Mapa">
+                    <h4>Mapa del Avatar</h4>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="Escenas/Chacras.jpg" alt="Chacras">
+                    <h4>Chacras</h4>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="Escenas/Equipo.jpg" alt="Equipo">
+                    <h4>Personajes</h4>
+                </a>
+            </div>
+        </article>
+    </section>
+    <footer>
+        <img src="images/redes/facebook.png" alt="Facebook">
+        <img src="images/redes/twitter.png" alt="Twitter">
+        <img src="images/redes/youtube.png" alt="Youtube">
+        <img src="images/redes/instagram.png" alt="Instagram">
+    </footer>
+    <script type="text/javascript">
+        function myFunction() {
+          var x = document.getElementById("menu_bar");
+          if (x.className === "") {
+            x.className += " responsive";
+          } else {
+            x.className = "";
+          }
+        }
+    </script>
+</body>
+</html>

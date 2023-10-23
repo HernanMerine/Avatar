@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="css/estilogaleria.css" rel="stylesheet" />
+    <title>Galeria</title>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="index.html"> <img src="PersonajesAvatar/LogoB.png" alt="Logo Avatar"></a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        <nav id="menu_bar" class="">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="personajes.html">Personajes</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="resenas.html">Reseñas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <article class="principal">
+            <div>
+                <h1>Galeria Avatar</h1>
+            </div>
+            </article>
+        <article class="secundario">
+            <a class="example-image-link" href="Escenas/Aang.jpg" data-lightbox="Avatar" data-title="Aang meditando"><img class="example-image" src="EscenasMin/Aang.jpg" alt="Aang Meditando"/></a>
+
+            <a class="example-image-link" href="Escenas/Ancestros.jpg" data-lightbox="Avatar" data-title="Ancestros de todas las eras">
+            <img class="example-image" src="EscenasMin/Ancestros.jpg" alt="Ancestros de todas las eras"/></a>
+
+            <a class="example-image-link" href="Escenas/Beso.jpg" data-lightbox="Avatar" data-title="Beso de Aang y Katara">
+            <img class="example-image" src="EscenasMin/Beso.jpg" alt="Beso de Aang y Katara"/></a>
+
+            <a class="example-image-link" href="Escenas/TophWin.jpg" data-lightbox="Avatar" data-title="Toph Ganando el torneo">
+            <img class="example-image" src="EscenasMin/TophWin.jpg" alt="Toph Ganando el torneo"/></a>
+
+
+
+            <a class="example-image-link" href="Escenas/TophWin.jpg" data-lightbox="Avatar" data-title="Toph Ganando el torneo">
+            <img class="example-image" src="EscenasMin/TophWin.jpg" alt="Toph Ganando el torneo"/></a>
+            
+            <a class="example-image-link" href="Escenas/TophWin.jpg" data-lightbox="Avatar" data-title="Toph Ganando el torneo">
+            <img class="example-image" src="EscenasMin/TophWin.jpg" alt="Toph Ganando el torneo"/></a>
+
+
+        </article>
+    </section>
+    <footer>
+        <img src="images/redes/facebook.png" alt="Facebook">
+        <img src="images/redes/twitter.png" alt="Twitter">
+        <img src="images/redes/youtube.png" alt="Youtube">
+        <img src="images/redes/instagram.png" alt="Instagram">
+    </footer>
+    <script type="text/javascript">
+        function myFunction() {
+          var x = document.getElementById("menu_bar");
+          if (x.className === "") {
+            x.className += " responsive";
+          } else {
+            x.className = "";
+          }
+        }
+    </script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+</body>
+</html>

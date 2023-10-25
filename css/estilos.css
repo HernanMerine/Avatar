@@ -18,6 +18,7 @@ header{
 }
 nav ul{
 	margin-top: 3%;
+	display: inline-block;
 }
 nav ul li{
 	display: inline-block;
@@ -63,6 +64,7 @@ section{
 .principal div h2{
 	visibility: hidden;
 }
+
 
 
 .secundario{
@@ -118,9 +120,7 @@ header nav {
 	padding-right: 0.6rem;
 	text-align: right;
 }
-nav ul {
-	display: none;
-}
+
 nav.responsive ul {
 	display: block;
 }
@@ -175,4 +175,51 @@ footer{
 footer img{
 	max-width: 3rem;
 }
+
+.menu {
+    list-style: none;
+    padding: 0;
 }
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+    position: relative;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.Personajes {
+    position: relative;
+}
+
+.Personajes-container {
+    display: inline-block;
+    cursor: pointer;
+    border: black;
+}
+.Personajes-content li a{
+    display: block;
+    cursor: pointer;
+    margin-bottom: -10%;
+}
+
+.arrow {
+   display: inline-block;
+    margin-left: -25px;
+    margin-top: -5px;
+}
+
+.Personajes-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+   background-color: beige;
+    border: 1px solid #ccc;
+    min-width: 120px;
+}
+
+

@@ -201,7 +201,7 @@ footer img{
     border: black;
 }
 .Personajes-content li a{
-    display: block;
+    display: none;
     cursor: pointer;
     margin-bottom: -10%;
 }

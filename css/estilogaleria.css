@@ -222,3 +222,48 @@ a img {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
+nav ul {
+  display: inline-block;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+    position: relative;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.Personajes {
+    position: relative;
+}
+
+.Personajes-container {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.arrow {
+   display: inline-block;
+    margin-left: -25px;
+    margin-top: -5px;
+}
+
+.Personajes-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    border: 1px solid #ccc;
+    min-width: 120px;
+}
+
+/* Estilos adicionales según tus preferencias */

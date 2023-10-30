@@ -1,3 +1,10 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
 body.lb-disable-scrolling {
     overflow: hidden;
 }
@@ -219,9 +226,126 @@ a img {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
 }
+
+
+body {
+    font-family: "Rubik", sans-serif;
+    background-color: beige;
+      border: 20px solid burlywood;
+       display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header {
+    padding-top: 2%;
+    padding-right: 7%;
+    padding-bottom: 2%;
+    padding-left: 7%;
+    display: flex;
+    justify-content: space-between;
+    background-color: burlywood;
+}
+
+.icon {
+    display: none;
+}
+section {
+    max-width: 1500px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 nav ul {
     display: inline-block;
+    margin-top: 3%;
 }
+
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    font-size: 1.2rem;
+    padding-right: 2rem;
+    text-transform: uppercase;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+    font-weight: 800;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+h4 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: burlywood;
+    margin-top: auto;
+}
+footer img {
+    max-width: 2.5rem;
+    width: 100%;
+    height: auto;
+    margin-right: 0.5%;
+}
+
+/* Estilos del formulario */
+form {
+    max-width: 60%;
+    margin: 20%; 
+    margin-top: 0%;
+    padding-top: 0%;
+    padding-bottom: 5%;
+    position: relative; 
+    top: 20vh; 
+}
+
+/* Estilos para los campos de entrada y etiquetas */
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #B8B296ff; 
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #B8B296ff;
+    border-radius: 5px;
+    font-family: 'Megrim', sans-serif;
+    font-size: 1vw;
+    color: black;
+    background-color: transparent;
+}
+
+form textarea {
+    height: 100px;
+    background-color: transparent;
+}
+
+form input[type="submit"] {
+    background-color: transparent;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+
 
 .menu {
     list-style: none;
@@ -263,3 +387,85 @@ nav ul {
     border: 1px solid #ccc;
     min-width: 120px;
 }
+
+/* Responsive*/
+@media (max-width: 480px) {
+    header {
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        background-color: #burlywood;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+    header div,
+    header a {
+        flex: 1 0 50%;
+    }
+    header nav {
+        flex-basis: 100%;
+    }
+    .icon {
+        display: block;
+        padding-right: 0.6rem;
+        text-align: right;
+    }
+
+    nav.responsive ul {
+        display: block;
+    }
+    nav.responsive ul li {
+        display: block;
+        text-align: center;
+        padding: 0.5rem;
+    }
+    nav.responsive ul li a {
+        padding-right: 0;
+    }
+    section {
+        max-width: 480px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .principal {
+        height: 250px;
+        padding: 10%;
+    }
+    .principal div {
+        margin-top: 20%;
+    }
+
+    .secundario {
+        margin-top: 1%;
+        display: block;
+    }
+    .secundario div {
+        margin-right: auto;
+        margin-left: auto;
+        width: 80%;
+    }
+    .secundario div a img {
+        margin-bottom: 1rem;
+    }
+
+    h1 {
+    font-size: 1.9rem;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    h4 {
+        font-size: 1rem;
+    }
+    footer {
+        height: 80px;
+        justify-content: space-evenly;
+        background-color: burlywood;
+
+    }
+    footer img {
+        max-width: 3rem;
+    }
+

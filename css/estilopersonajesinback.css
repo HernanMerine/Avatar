@@ -113,6 +113,58 @@ footer img {
     margin-bottom: -10%;
 }
 
+
+
+/* Estilos del formulario */
+form {
+    max-width: 60%;
+    margin: 20%; 
+    margin-top: 0%;
+    padding-top: 0%;
+    padding-bottom: 5%;
+    position: relative; 
+    top: 20vh; 
+}
+
+/* Estilos para los campos de entrada y etiquetas */
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #B8B296ff; 
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #B8B296ff;
+    border-radius: 5px;
+    font-family: 'Megrim', sans-serif;
+    font-size: 1vw;
+    color: black;
+    background-color: transparent;
+}
+
+form textarea {
+    height: 100px;
+    background-color: transparent;
+}
+
+form input[type="submit"] {
+    background-color: transparent;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+
+
 @media (max-width: 480px) {
     header {
         align-items: center;

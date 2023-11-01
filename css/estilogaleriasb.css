@@ -37,26 +37,6 @@
     max-height: 210px;
 }
 
-.Personajes-content {
-    display: none;
-    position: absolute;
-    top: 10%;
-    left: 0;
-    background-color: beige;
-    border: 1px solid #ccc;
-    min-width: 120px;
-}
-.Personajes-container {
-    display: inline-block;
-    cursor: pointer;
-    border: black;
-}
-.Personajes-content li a {
-    display: block;
-    cursor: pointer;
-    margin-bottom: -10%;
-}
-
 @media (max-width: 480px) {
     header {
         align-items: center;
@@ -80,17 +60,6 @@
         text-align: right;
     }
 
-    nav.responsive ul {
-        display: block;
-    }
-    nav.responsive ul li {
-        display: block;
-        text-align: center;
-        padding: 0.5rem;
-    }
-    nav.responsive ul li a {
-        padding-right: 0;
-    }
     section {
         max-width: 480px;
         width: 100%;
@@ -123,15 +92,6 @@
     }
     h4 {
         font-size: 1rem;
-    }
-    footer {
-        height: 80px;
-        justify-content: space-evenly;
-        background-color: burlywood;
-
-    }
-    footer img {
-        max-width: 3rem;
     }
 
 

@@ -231,11 +231,13 @@ a img {
 body {
     font-family: "Rubik", sans-serif;
     background-color: beige;
-      border: 20px solid burlywood;
-       display: flex;
+    border: 20px solid burlywood;
+    display: flex;
     flex-direction: column;
     min-height: 100vh;
+    margin-bottom: 2%;
 }
+
 header {
     padding-top: 2%;
     padding-right: 7%;
@@ -249,6 +251,7 @@ header {
 .icon {
     display: none;
 }
+
 section {
     max-width: 1500px;
     width: 90%;
@@ -286,15 +289,18 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 150px;
     background-color: burlywood;
     margin-top: auto;
+    padding: 0.5%;
+    text-align: center;
 }
-footer img {
-    max-width: 2.5rem;
-    width: 100%;
-    height: auto;
-    margin-right: 0.5%;
+
+
+footer a img {
+    width: 45px;
+    height: 45px;
+    margin: 5px;
 }
 
 /* Estilos del formulario */
@@ -362,6 +368,10 @@ form input[type="submit"] {
 .Personajes {
     position: relative;
 }
+.personaje p {
+    font-size: 1.095rem;
+}
+
 .Personajes-container {
     display: inline-block;
     cursor: pointer;
@@ -388,7 +398,7 @@ form input[type="submit"] {
     min-width: 120px;
 }
 
-/* Responsive*/
+/* Respo*/
 @media (max-width: 480px) {
     header {
         align-items: center;

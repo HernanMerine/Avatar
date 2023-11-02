@@ -65,8 +65,7 @@ a img {
     margin: 0 auto;
     border-radius: 4px;
 
-    /* Background color behind image.
-     This is visible during transitions. */
+    
     background-color: white;
 }
 
@@ -289,7 +288,7 @@ h4 {
     text-transform: uppercase;
     margin-left: -35px;
 }
-/* Estilos para las etiquetas "a" que contienen los íconos */
+
 footer {
     display: flex;
     justify-content: center;
@@ -317,7 +316,7 @@ footer a {
 footer a img {
     width: 45px;
     height: 45px;
-    margin: 0 10px; /* Espacio entre las imágenes */
+    margin: 0 10px; 
 }
 
 
@@ -365,14 +364,14 @@ after-footer {
     margin-top: -5px;
 }
 .Personajes-content {
-    display: none; /* Configura para que esté oculto al inicio */
+    display: none; 
     position: absolute;
     top: 100%;
     left: 0;
     background-color: beige;
     border: 1px solid #ccc;
     min-width: 120px;
-    z-index: 2; /* Asegura que aparezca por encima del contenido principal */
+    z-index: 2; 
 }
 
 
@@ -511,25 +510,25 @@ footer h5 {
 }
 
 .footer + .after-footer {
-    background-color: burlywood; /* Cambia esto al color que desees */
+    background-color: burlywood; 
 }
-/* ... (otros estilos) ... */
+
 
 #menu_bar.responsive {
     display: none;
-    flex-direction: column; /* Para mostrar el menú en vertical */
+    flex-direction: column; 
 }
 
 
 
 #menu_bar {
-    display: none; /* Asegúrate de que esté configurado en "none" al inicio */
+    display: none; 
 
 }
 
 #menu_bar.responsive {
-    display: flex; /* Muestra el menú hamburguesa al hacer clic en el icono */
-    flex-direction: column; /* Para mostrar el menú en vertical */
+    display: flex; 
+    flex-direction: column; 
     max-height: initial;
 }
 
@@ -571,4 +570,7 @@ footer h5 {
     border: 1px solid #ccc;
     min-width: 120px;
     z-index: 2; /* Asegura que aparezca por encima del contenido principal */
+}
+.personaje h1{
+    font-size: 2rem;
 }

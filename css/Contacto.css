@@ -24,7 +24,6 @@ section {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 20px;
     display: flex;
 }
 
@@ -34,9 +33,16 @@ form {
     border: 2px solid #000;
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.8);
-    margin-left: -60px; /* Ajusta el valor según tu preferencia */
-    max-width: 80%; /* Ajusta el ancho máximo del formulario según tu diseño */
+    max-width: 40%;
+    margin: 20vh 0 0 15px; /* Ajusta el valor del margen izquierdo (10px) según tus necesidades */
+    padding-top: 1%;
+    padding-bottom: 3%;
+    position: relative;
+    top: -15px; /* Ajusta el valor del desplazamiento vertical según tus necesidades */
+    left: 14%;
 }
+
+
 
 /* Estilos para el formulario y otros elementos dentro del formulario (labels, inputs, textarea, etc.) */
 form label {
@@ -75,14 +81,28 @@ form input[type="submit"] {
     cursor: pointer;
 }
 
-/* Estilos para pantallas pequeñas (móviles) */
+/* Estilos para pantallas de hasta 480px de ancho */
 @media (max-width: 480px) {
     form {
-        margin-left: 0; /* Reiniciar el margen izquierdo */
-        max-width: 100%; /* Aprovechar el ancho completo de la pantalla */
+        width: 90%; /* Ajusta el ancho máximo en pantallas más pequeñas */
+        margin: 20% 0 0 5%; /* Centra el formulario horizontalmente y lo desplaza a la izquierda en pantallas más pequeñas */
+        padding-top: 0;
+        padding-bottom: 5%;
+        left: 10px;
+
     }
 
-    section {
-        background-size: cover; /* Ajustar el tamaño de fondo para que se vea completo */
+    form label {
+        font-size: 1.2rem; /*Tamaño de fuente más pequeño en pantallas pequeñas */
+    }
+
+    form input[type="text"],
+    form input[type="email"],
+    form textarea {
+        font-size: 1rem; /* Ajusta el tamaño de fuente en pantallas pequeñas */
+    }
+
+    form input[type="submit"] {
+        font-size: 1rem; /* Ajusta el tamaño de fuente del botón en pantallas pequeñas */
     }
 }

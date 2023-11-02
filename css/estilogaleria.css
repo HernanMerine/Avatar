@@ -246,6 +246,7 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: burlywood;
+
 }
 
 .icon {
@@ -265,12 +266,14 @@ nav ul {
 }
 
 nav ul li {
-    display: inline-block;
+    display: inline-block; 
+       z-index: 0;
 }
 nav ul li a {
     font-size: 1.2rem;
     padding-right: 2rem;
     text-transform: uppercase;
+
 }
 nav ul li a:hover {
     text-decoration: underline;
@@ -286,34 +289,39 @@ h4 {
     text-transform: uppercase;
     margin-left: -35px;
 }
+/* Estilos para las etiquetas "a" que contienen los íconos */
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 150px;
+    height: 180px;
     background-color: burlywood;
-    margin-top: auto;
     padding: 0.5%;
     text-align: center;
+    position: relative;
 }
 
+footer h5 {
+    font-size: 0.68rem;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+footer a {
+    display: inline-block;
+    margin-left: 10px;
+}
 
 footer a img {
     width: 45px;
     height: 45px;
-    margin: 5px;
+    margin: 0 10px; /* Espacio entre las imágenes */
 }
 
-/* Estilos del formulario */
-form {
-    max-width: 60%;
-    margin: 20%; 
-    margin-top: 0%;
-    padding-top: 0%;
-    padding-bottom: 5%;
-    position: relative; 
-    top: 20vh; 
-}
+
+
 
 
 
@@ -327,6 +335,7 @@ form {
     display: inline;
     margin-right: 20px;
     position: relative;
+    z-index: 1;
 }
 .menu a {
     text-decoration: none;
@@ -342,6 +351,7 @@ form {
     display: inline-block;
     cursor: pointer;
     border: black;
+    z-index: 1;
 }
 .Personajes-content li a {
     display: block;
@@ -444,6 +454,15 @@ form {
     footer img {
         max-width: 3rem;
     }
+
+footer h5 {
+    font-size: 0.4rem;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
 
 .article-left {
         border: 0.2vw solid #B8B296ff; 

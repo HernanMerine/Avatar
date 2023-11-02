@@ -111,14 +111,16 @@
     </div>
 </footer>
     <script type="text/javascript">
-        function myFunction() {
-          var x = document.getElementById("menu_bar");
-          if (x.className === "") {
-            x.className += " responsive";
-          } else {
-            x.className = "";
-          }
-        }
+        const menuBar = document.getElementById("menu_bar");
+        const icon = document.querySelector(".icon");
+
+        icon.addEventListener("click", () => {
+            if (menuBar.style.display === "block") {
+                menuBar.style.display = "none";
+            } else {
+                menuBar.style.display = "block";
+            }
+        });
     </script>
     <script src="js/lightbox-plus-jquery.min.js"></script>
     <script src="js/JsMenu.js"></script>

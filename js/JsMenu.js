@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     personajesContainer.addEventListener("click", function (event) {
         event.stopPropagation();
-        if (personajesContent.style.display === "none" || personajesContent.style.display === "") {
+        if (personajesContent.style.display === "none") {
             personajesContent.style.display = "block";
             document.querySelector('.arrow').textContent = '▼'; // Cambia la flecha a abajo
         } else {
@@ -22,4 +22,3 @@ document.addEventListener("DOMContentLoaded", function () {
         event.stopPropagation();
     });
 });
-

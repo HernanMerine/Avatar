@@ -1,0 +1,68 @@
+/* Estilos para el tipo de artículo con imagen a la izquierda */
+.article-left {
+    border: 0.2vw solid #B8B296ff; 
+    border-radius: 10px; 
+    padding: 2%; 
+    margin: 2%; 
+    display: flex; 
+    align-items: center; 
+    width: 73%; 
+    margin: 0 auto; 
+    height: auto;
+    background-color: #beige;
+    margin-bottom: 2%;
+}
+
+.article-left img {
+    width: 130%; /* Tamaño de la imagen */
+    margin-right: 0%;
+}
+article.article-left img {
+    vertical-align: top;
+    margin-right: 3%;
+}
+
+
+
+/* Estilos para el contenedor del texto */
+.article-left .text-container {
+    flex-grow: 1; 
+    margin-left: 10%;
+}
+
+.article-left h2 {
+    font-size: 1.6vw;
+    margin-bottom: 10px;
+}
+
+/* Estilos para los divs dentro del artículo */
+.article-left div{
+    margin-left: 3%;
+    margin-right: 3%;
+    
+}
+
+.text-container {
+    width: 200%; 
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.article-left h3{
+    font-size: 1.6vw;
+    margin: 2%;
+}
+
+section h1{
+    margin-bottom: 2%;
+    margin-top: 3%;
+    font-size: 1.8vw;
+    margin: 2%;
+    color: burlywood;
+}
+
+.article-left p{
+    font-size: 16px;
+    margin-bottom: 2%;
+    margin-left: 2%;
+}

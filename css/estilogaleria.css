@@ -284,6 +284,7 @@ a {
 h4 {
     font-size: 1.5rem;
     text-transform: uppercase;
+    margin-left: -35px;
 }
 footer {
     display: flex;
@@ -314,42 +315,7 @@ form {
     top: 20vh; 
 }
 
-/* Estilos para los campos de entrada y etiquetas */
-form label {
-    display: block;
-    margin-bottom: 10px;
-    font-weight: bold;
-    color: #B8B296ff; 
-}
 
-form input[type="text"],
-form input[type="email"],
-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #B8B296ff;
-    border-radius: 5px;
-    font-family: 'Megrim', sans-serif;
-    font-size: 1vw;
-    color: black;
-    background-color: transparent;
-}
-
-form textarea {
-    height: 100px;
-    background-color: transparent;
-}
-
-form input[type="submit"] {
-    background-color: transparent;
-    color: black;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1vw;
-    cursor: pointer;
-}
 
 
 
@@ -479,3 +445,44 @@ form input[type="submit"] {
         max-width: 3rem;
     }
 
+.article-left {
+        border: 0.2vw solid #B8B296ff; 
+        border-radius: 10px; 
+        padding: 2%; 
+        margin: 2%; 
+        display: flex; 
+        align-items: center; 
+        width: 80%; 
+        margin: 0 auto; 
+        height: auto;
+        background-color:beige;
+    }
+
+    .article-left img {
+        width: 100%; 
+        margin-right: 0%;
+    }
+
+    .article-left p{
+        font-size: 2.5vw;
+        margin-bottom: 2%;
+        margin-left: 2%;
+    }
+    .article-left h3{
+        font-size: 2.5vw;
+        margin-bottom: 2%;
+        margin-left: 2%;
+    }
+    
+    .text-container {
+        width: 200%; 
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    section h1{
+    margin-bottom: 2%;
+    margin-top: 3%;
+    font-size: 3.4vw;
+    margin: 2%;
+    color: burlywood;
+}

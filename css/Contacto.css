@@ -25,6 +25,7 @@ section {
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
+    padding: 50px;
 }
 
 form {
@@ -39,11 +40,8 @@ form {
     padding-bottom: 3%;
     position: relative;
     top: -15px; 
-    left: 14%;
+    left: 11%;
 }
-
-
-
 
 form label {
     display: block;
@@ -84,15 +82,16 @@ form input[type="submit"] {
 /* Estilos para pantallas de hasta 480px de ancho */
 @media (max-width: 480px) {
     form {
-        width: 90%; 
+        max-width: 100%;
         margin: 20% 0 0 5%; 
         padding-top: 0;
-        padding-bottom: 5%;
-        left: 10px;
+        padding-bottom: 20%;
+        left: -40px;
 
     }
 
     form label {
+
         font-size: 1.2rem; 
     }
 
@@ -105,5 +104,4 @@ form input[type="submit"] {
     form input[type="submit"] {
         font-size: 1rem; 
     }
-
 

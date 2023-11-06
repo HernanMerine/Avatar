@@ -1,10 +1,10 @@
 
 h1{
 
-    font-size: 1.9rem;
+    font-size: 2.5rem;
     color: burlywood;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+
 } 
 
 .personaje img {
@@ -12,6 +12,7 @@ h1{
     margin-right: 20px;
     max-width: 100%;
     height: auto;
+    padding-bottom: 20px;
 }
 
 .personaje {
@@ -19,6 +20,7 @@ h1{
     font-size: 1.4rem;
     display: flex-start;
     align-items: center;
+    padding: 20px;
 }
 
 

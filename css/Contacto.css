@@ -34,17 +34,17 @@ form {
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.8);
     max-width: 40%;
-    margin: 20vh 0 0 15px; /* Ajusta el valor del margen izquierdo (10px) según tus necesidades */
+    margin: 20vh 0 0 15px; 
     padding-top: 1%;
     padding-bottom: 3%;
     position: relative;
-    top: -15px; /* Ajusta el valor del desplazamiento vertical según tus necesidades */
+    top: -15px; 
     left: 14%;
 }
 
 
 
-/* Estilos para el formulario y otros elementos dentro del formulario (labels, inputs, textarea, etc.) */
+
 form label {
     display: block;
     margin-bottom: 10px;

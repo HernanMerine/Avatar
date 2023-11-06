@@ -1,4 +1,4 @@
-/* Estilos para el tipo de artículo con imagen a la izquierda */
+
 .article-left {
     border: 0.2vw solid #B8B296ff; 
     border-radius: 10px; 
@@ -14,7 +14,7 @@
 }
 
 .article-left img {
-    width: 130%; /* Tamaño de la imagen */
+    width: 130%;
     margin-right: 0%;
 }
 article.article-left img {
@@ -24,7 +24,7 @@ article.article-left img {
 
 
 
-/* Estilos para el contenedor del texto */
+
 .article-left .text-container {
     flex-grow: 1; 
     margin-left: 10%;
@@ -35,7 +35,6 @@ article.article-left img {
     margin-bottom: 10px;
 }
 
-/* Estilos para los divs dentro del artículo */
 .article-left div{
     margin-left: 3%;
     margin-right: 3%;

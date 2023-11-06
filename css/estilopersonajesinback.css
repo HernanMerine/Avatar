@@ -10,7 +10,7 @@ h1{
 .personaje img {
     float: left;
     margin-right: 20px;
-    max-width: 100%; /* Hace que la imagen sea responsive */
+    max-width: 100%;
     height: auto;
 }
 
